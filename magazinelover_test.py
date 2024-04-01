@@ -6,7 +6,7 @@ class MagazineLoverTestSuite(unittest.TestCase):
     def test_1_add_magazine(self):
         bl = MagazineLover('Mike', 'test@gmail.com', 'Fiction')
         bl.add_magazine('Jane Eyre', 4)
-        self.assertIn('Jane Eyre', bl.book_list['book_name'].values)
+        self.assertIn('Jane Eyre', bl.magazine_list['magazine_name'].values)
 
     def test_2_add_magazine(self):
         bl = MagazineLover('Susan', 'test@gmail.com', 'Fiction')
