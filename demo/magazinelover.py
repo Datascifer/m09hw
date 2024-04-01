@@ -22,7 +22,7 @@ class MagazineLover:
     def has_read(self, magazine_name):
         return magazine_name in self.magazine_list['magazine_name'].values
 
-    def fav_magazine(self):
+    def fav_magazines(self):
         return self.magazine_list[self.magazine_list['magazine_rating'] > 3]
 
 if __name__ == '__main__':
