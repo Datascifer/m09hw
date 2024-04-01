@@ -11,8 +11,8 @@ class MagazineLoverTestSuite(unittest.TestCase):
     def test_2_add_magazine(self):
         bl = MagazineLover('Susan', 'test@gmail.com', 'Fiction')
         bl.add_magazine('Jane Eyre', 4)
-        bl.add_magazine('Jane Eyre', 4)  # Attempt to add the same book twice
-        self.assertEqual(len(bl.magazine_list), 1)  # Book should only appear once
+        bl.add_magazine('Jane Eyre', 4)  # Attempt to add the same magazine twice
+        self.assertEqual(len(bl.magazine_list), 1)  # Magazine should only appear once
 
     def test_3_has_read(self):
         bl = MagazineLover('Brenda', 'test@gmail.com', 'Fiction')
@@ -21,7 +21,7 @@ class MagazineLoverTestSuite(unittest.TestCase):
 
     def test_4_has_read(self):
         bl = MagazineLover('Jerry', 'test@gmail.com', 'Fiction')
-        self.assertFalse(bl.has_read('Moby Dick'))  # Checking a book not in the list
+        self.assertFalse(bl.has_read('Moby Dick'))  # Checking a magazine not in the list
 
     def test_5_num_magazines_read(self):
         bl = MagazineLover('Adam', 'test@gmail.com', 'Fiction')
