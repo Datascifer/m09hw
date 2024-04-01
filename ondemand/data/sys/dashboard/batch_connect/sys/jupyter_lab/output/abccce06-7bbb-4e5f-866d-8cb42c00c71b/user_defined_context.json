@@ -1,0 +1,14 @@
+{
+  "node_type": "standard",
+  "bc_num_hours": "2",
+  "num_cores": "1",
+  "num_memory": "32",
+  "work_dir": "--notebook-dir=/home/",
+  "bc_account": "msds_ds5100",
+  "gpu_type": "--gres=gpu:",
+  "num_gpu": "1",
+  "mode": "No",
+  "option": "",
+  "extra_group": "",
+  "bc_email_on_started": "0"
+}

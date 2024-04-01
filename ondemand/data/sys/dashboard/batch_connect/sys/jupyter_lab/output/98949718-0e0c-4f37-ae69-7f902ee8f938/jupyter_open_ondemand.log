@@ -1,0 +1,83 @@
+Script starting...
+Waiting for Jupyter Notebook server to open port 33773...
+TIMING - Starting wait at: Sat Mar 23 02:22:17 EDT 2024
+TIMING - Starting main script at: Sat Mar 23 02:22:17 EDT 2024
+Environment Setting
+
+Currently Loaded Modules:
+  1) jupyterlab/.3.6.3-py3.11 (H)
+
+  Where:
+   H:  Hidden Module
+
+ 
+
+TTT - Sat Mar 23 02:22:17 EDT 2024
+TIMING - Starting jupyter at: Sat Mar 23 02:22:17 EDT 2024
++ export XDG_RUNTIME_DIR=
++ XDG_RUNTIME_DIR=
++ jupyter lab --config=/home/mxg9xv/ondemand/data/sys/dashboard/batch_connect/sys/jupyter_lab/output/98949718-0e0c-4f37-ae69-7f902ee8f938/config.py --notebook-dir=/home/mxg9xv
+[I 2024-03-23 02:22:18.708 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-03-23 02:22:18.721 ServerApp] Package jupyter_resource_usage took 0.0128s to import
+[I 2024-03-23 02:22:18.724 ServerApp] Package jupyter_server_fileid took 0.0024s to import
+[I 2024-03-23 02:22:18.776 ServerApp] Package jupyter_server_proxy took 0.0515s to import
+[I 2024-03-23 02:22:18.782 ServerApp] Package jupyter_server_terminals took 0.0053s to import
+[I 2024-03-23 02:22:18.818 ServerApp] Package jupyter_server_ydoc took 0.0360s to import
+[I 2024-03-23 02:22:18.818 ServerApp] Package nbclassic took 0.0000s to import
+[W 2024-03-23 02:22:18.820 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-03-23 02:22:18.821 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-03-23 02:22:18.821 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-03-23 02:22:18.959 ServerApp] Package voila.server_extension took 0.1375s to import
+[I 2024-03-23 02:22:18.959 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2024-03-23 02:22:18.962 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-03-23 02:22:18.962 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2024-03-23 02:22:18.965 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-03-23 02:22:18.968 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2024-03-23 02:22:18.969 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'disable_check_xsrf' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.969 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-23 02:22:18.972 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[W 2024-03-23 02:22:18.972 ServerApp] ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.
+[I 2024-03-23 02:22:18.972 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-03-23 02:22:18.974 ServerApp] nbclassic | extension was successfully linked.
+/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/traitlets/traitlets.py:1872: DeprecationWarning: ServerApp.token config is deprecated in jupyter-server 2.0. Use IdentityProvider.token
+  return self._get_trait_default_generator(names[0])(self)
+[I 2024-03-23 02:22:19.254 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-03-23 02:22:19.255 ServerApp] voila.server_extension | extension was successfully linked.
+[W 2024-03-23 02:22:19.321 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-03-23 02:22:19.322 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-03-23 02:22:19.322 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2024-03-23 02:22:19.322 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-03-23 02:22:19.322 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/mxg9xv
+[I 2024-03-23 02:22:19.323 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/mxg9xv/.local/share/jupyter/file_id_manager.db
+[I 2024-03-23 02:22:19.323 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-03-23 02:22:19.323 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-03-23 02:22:19.338 FileIdExtension] Attached event listeners.
+[I 2024-03-23 02:22:19.338 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-03-23 02:22:19.350 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2024-03-23 02:22:19.351 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-03-23 02:22:19.351 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/traitlets/traitlets.py:1872: DeprecationWarning: ServerApp.token config is deprecated in jupyter-server 2.0. Use IdentityProvider.token
+  return self._get_trait_default_generator(names[0])(self)
+[I 2024-03-23 02:22:19.356 LabApp] JupyterLab extension loaded from /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab
+[I 2024-03-23 02:22:19.356 LabApp] JupyterLab application directory is /sfs/applications/202312/software/standard/core/jupyterlab/3.6.3-py3.11/share/jupyter/lab
+[I 2024-03-23 02:22:19.358 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-03-23 02:22:19.362 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-03-23 02:22:19.365 ServerApp] voila.server_extension | extension was successfully loaded.
+[I 2024-03-23 02:22:19.365 ServerApp] Serving notebooks from local directory: /home/mxg9xv
+[I 2024-03-23 02:22:19.365 ServerApp] Jupyter Server 2.7.1 is running at:
+[I 2024-03-23 02:22:19.365 ServerApp] http://localhost:33773/node/udc-aw34-1c0/33773/lab
+[I 2024-03-23 02:22:19.365 ServerApp]     http://127.0.0.1:33773/node/udc-aw34-1c0/33773/lab
+[I 2024-03-23 02:22:19.365 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-03-23 02:22:19.386 ServerApp] No web browser found: Error('could not locate runnable browser').
+Discovered Jupyter Notebook server listening on port 33773!
+TIMING - Wait ended at: Sat Mar 23 02:22:19 EDT 2024
+Generating connection YAML file...
+slurmstepd: error: *** JOB 59671490 ON udc-aw34-1c0 CANCELLED AT 2024-03-23T03:31:34 DUE TO TIME LIMIT ***

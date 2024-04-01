@@ -1,0 +1,128 @@
+[2024-01-31T00:40:31.734Z] debug child:434459 initiating handshake
+[2024-01-31T00:40:31.737Z] debug child:434459 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"bind-addr":"0.0.0.0:27057","auth":"password","password":"<redacted>","config":"/home/mxg9xv/.config/code-server/config.yaml","disable-telemetry":true,"extensions-dir":"/home/mxg9xv/.local/share/code-server/extensions","user-data-dir":"/home/mxg9xv/.local/share/code-server","log":"debug","_":["/home/mxg9xv/DS5100-2024-01-O/notebooks/M02_BasicPython"],"session-socket":"/home/mxg9xv/.local/share/code-server/code-server-ipc.sock","verbose":false,"host":"0.0.0.0","port":27057,"proxy-domain":[],"usingEnvPassword":true,"usingEnvHashedPassword":false}}}[0m
+[2024-01-31T00:40:31.738Z] info  code-server 4.16.1 94ef3776ad7bebfb5780dfc9632e04d20d5c9a6c
+[2024-01-31T00:40:31.738Z] info  Using user-data-dir ~/.local/share/code-server
+[2024-01-31T00:40:31.763Z] info  Using config file ~/.config/code-server/config.yaml
+[2024-01-31T00:40:31.763Z] info  HTTP server listening on http://0.0.0.0:27057/
+[2024-01-31T00:40:31.763Z] info    - Authentication is enabled
+[2024-01-31T00:40:31.763Z] info      - Using password from $PASSWORD
+[2024-01-31T00:40:31.764Z] info    - Not serving HTTPS
+[2024-01-31T00:40:31.764Z] info  Session server listening on /home/mxg9xv/.local/share/code-server/code-server-ipc.sock
+[2024-01-31T00:41:23.387Z] debug no valid cookie domain [38;2;140;140;140m{"host":"udc-ba25-32c1"}[0m
+[2024-01-31T00:41:23.388Z] debug redirecting from /login?to= to ./
+[19:41:23] 
+
+
+
+
+[19:41:23] Extension host agent started.
+[19:41:23] No uninstalled extensions found.
+[19:41:23] Started initializing default profile extensions in extensions installation folder. file:///home/mxg9xv/.local/share/code-server/extensions
+[19:41:23] ComputeTargetPlatform: linux-x64
+[19:41:23] Completed initializing default profile extensions in extensions installation folder. file:///home/mxg9xv/.local/share/code-server/extensions
+[2024-01-31T00:41:23.959Z] debug redirecting from / to ./?folder=/home/mxg9xv/DS5100-2024-01-O/notebooks/M02_BasicPython
+[19:41:26] [10.153.20.32][fd0cc870][ManagementConnection] New connection established.
+[19:41:27] Error while reading the extension cache file: /home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache Unable to read file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache' (Error: Unable to resolve nonexistent file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache')
+[19:41:27] Error while reading the extension cache file: /home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+[2024-01-31T00:41:27.590Z] debug Making request [38;2;140;140;140m{"uri":"https://api.github.com/repos/coder/code-server/releases/latest"}[0m
+[2024-01-31T00:41:27.815Z] debug got latest version [38;2;140;140;140m{"latest":"4.20.1"}[0m
+[2024-01-31T00:41:27.815Z] debug comparing versions [38;2;140;140;140m{"current":"4.16.1","latest":"4.20.1"}[0m
+[19:41:28] [10.153.20.32][bab591e7][ExtensionHostConnection] New connection established.
+[19:41:28] [10.153.20.32][bab591e7][ExtensionHostConnection] <435986> Launched Extension Host Process.
+[19:41:28] Terminal profile not validated pwsh [ 'pwsh' ]
+[19:41:28] Terminal profile not validated tmux [ 'tmux' ]
+[19:41:28] Terminal profile not validated fish [ 'fish' ]
+[2024-01-31T00:41:29.472Z] debug Adding session to session registry: /run/user/15541343/vscode-ipc-77d3c7e3-39ed-48f4-92b3-afcc44de59b8.sock
+[19:41:34] Terminal profile not validated fish [ 'fish' ]
+[19:41:34] Terminal profile not validated tmux [ 'tmux' ]
+[19:41:34] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-01-31T00:42:23.310Z] debug 2 active connections
+[2024-01-31T00:43:23.310Z] debug 2 active connections
+[2024-01-31T00:44:31.563Z] debug 2 active connections
+[2024-01-31T00:45:31.564Z] debug 2 active connections
+[2024-01-31T00:46:31.565Z] debug 2 active connections
+[2024-01-31T00:47:31.566Z] debug 2 active connections
+[2024-01-31T00:48:31.567Z] debug 2 active connections
+[2024-01-31T00:49:31.568Z] debug 2 active connections
+[2024-01-31T00:50:31.569Z] debug 2 active connections
+[2024-01-31T00:51:31.570Z] debug 2 active connections
+[2024-01-31T00:52:31.571Z] debug 2 active connections
+[2024-01-31T00:53:31.572Z] debug 2 active connections
+[2024-01-31T00:54:31.573Z] debug 2 active connections
+[2024-01-31T00:55:31.574Z] debug 2 active connections
+[2024-01-31T00:56:31.575Z] debug 2 active connections
+[2024-01-31T00:57:31.576Z] debug 2 active connections
+[2024-01-31T00:58:31.576Z] debug 2 active connections
+[2024-01-31T00:59:31.577Z] debug 2 active connections
+[2024-01-31T01:00:31.578Z] debug 2 active connections
+[2024-01-31T01:01:31.579Z] debug 2 active connections
+[2024-01-31T01:02:31.580Z] debug 2 active connections
+[2024-01-31T01:03:31.581Z] debug 2 active connections
+[2024-01-31T01:04:31.582Z] debug 2 active connections
+[2024-01-31T01:05:31.583Z] debug 2 active connections
+[2024-01-31T01:06:31.583Z] debug 2 active connections
+[2024-01-31T01:07:31.584Z] debug 2 active connections
+[2024-01-31T01:08:31.585Z] debug 2 active connections
+[2024-01-31T01:09:31.586Z] debug 2 active connections
+[2024-01-31T01:10:31.587Z] debug 2 active connections
+[2024-01-31T01:11:31.588Z] debug 2 active connections
+[2024-01-31T01:12:31.589Z] debug 2 active connections
+[2024-01-31T01:13:31.590Z] debug 2 active connections
+[2024-01-31T01:14:31.591Z] debug 2 active connections
+[2024-01-31T01:15:31.592Z] debug 2 active connections
+[2024-01-31T01:16:31.593Z] debug 2 active connections
+[2024-01-31T01:17:31.594Z] debug 2 active connections
+[2024-01-31T01:18:31.596Z] debug 2 active connections
+[2024-01-31T01:19:31.598Z] debug 2 active connections
+[2024-01-31T01:20:31.600Z] debug 2 active connections
+[2024-01-31T01:21:31.601Z] debug 2 active connections
+[2024-01-31T01:22:31.602Z] debug 2 active connections
+[2024-01-31T01:23:31.603Z] debug 2 active connections
+[2024-01-31T01:24:31.604Z] debug 2 active connections
+[2024-01-31T01:25:31.605Z] debug 2 active connections
+[2024-01-31T01:26:31.607Z] debug 2 active connections
+[2024-01-31T01:27:31.607Z] debug 2 active connections
+[2024-01-31T01:28:31.608Z] debug 2 active connections
+[2024-01-31T01:29:31.609Z] debug 2 active connections
+[2024-01-31T01:30:31.610Z] debug 2 active connections
+[2024-01-31T01:31:31.611Z] debug 2 active connections
+[2024-01-31T01:32:31.612Z] debug 2 active connections
+[2024-01-31T01:33:31.613Z] debug 2 active connections
+[2024-01-31T01:34:31.614Z] debug 2 active connections
+[2024-01-31T01:35:31.616Z] debug 2 active connections
+[2024-01-31T01:36:31.617Z] debug 2 active connections
+[2024-01-31T01:37:31.619Z] debug 2 active connections
+[2024-01-31T01:38:31.620Z] debug 2 active connections
+[2024-01-31T01:39:31.621Z] debug 2 active connections
+[2024-01-31T01:40:31.622Z] debug 2 active connections
+[2024-01-31T01:41:31.623Z] debug 2 active connections
+[2024-01-31T01:42:31.624Z] debug 2 active connections
+[2024-01-31T01:43:31.625Z] debug 2 active connections
+[2024-01-31T01:44:31.626Z] debug 2 active connections
+[2024-01-31T01:45:31.628Z] debug 2 active connections
+[2024-01-31T01:46:31.629Z] debug 2 active connections
+[2024-01-31T01:47:31.630Z] debug 2 active connections
+[2024-01-31T01:48:31.631Z] debug 2 active connections
+[2024-01-31T01:49:31.633Z] debug 2 active connections
+[2024-01-31T01:50:31.634Z] debug 2 active connections
+[2024-01-31T01:51:31.635Z] debug 2 active connections
+[2024-01-31T01:52:31.636Z] debug 2 active connections
+[2024-01-31T01:53:31.637Z] debug 2 active connections
+[2024-01-31T01:54:31.638Z] debug 2 active connections
+[2024-01-31T01:55:31.640Z] debug 2 active connections
+[2024-01-31T01:56:31.642Z] debug 2 active connections
+[2024-01-31T01:57:31.643Z] debug 2 active connections
+[2024-01-31T01:58:31.645Z] debug 2 active connections
+[2024-01-31T01:59:31.647Z] debug 2 active connections
+[2024-01-31T02:00:31.649Z] debug 2 active connections
+[2024-01-31T02:01:31.650Z] debug 2 active connections
+[2024-01-31T02:02:31.652Z] debug 2 active connections
+[2024-01-31T02:03:31.653Z] debug 2 active connections
+[2024-01-31T02:04:31.654Z] debug 2 active connections
+[2024-01-31T02:05:31.655Z] debug 2 active connections
+[2024-01-31T02:06:31.656Z] debug 2 active connections
+[2024-01-31T02:07:31.657Z] debug 2 active connections
+[2024-01-31T02:08:31.658Z] debug 2 active connections
+[2024-01-31T02:09:31.659Z] debug 2 active connections
+[2024-01-31T02:10:31.659Z] debug 2 active connections
+[2024-01-31T02:11:31.659Z] debug 2 active connections

@@ -1,0 +1,13 @@
+{
+  "base_url": "/node/udc-an33-2c1/9728/",
+  "hostname": "localhost",
+  "password": true,
+  "pid": 199863,
+  "port": 9728,
+  "root_dir": "/home/mxg9xv",
+  "secure": false,
+  "sock": "",
+  "token": "",
+  "url": "http://localhost:9728/node/udc-an33-2c1/9728/",
+  "version": "2.7.1"
+}

@@ -1,0 +1,13 @@
+{
+  "base_url": "/node/udc-aw34-17c1/13815/",
+  "hostname": "localhost",
+  "password": true,
+  "pid": 36923,
+  "port": 13815,
+  "root_dir": "/home/mxg9xv",
+  "secure": false,
+  "sock": "",
+  "token": "",
+  "url": "http://localhost:13815/node/udc-aw34-17c1/13815/",
+  "version": "2.7.1"
+}

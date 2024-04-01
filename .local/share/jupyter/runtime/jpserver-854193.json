@@ -1,0 +1,13 @@
+{
+  "base_url": "/node/udc-aw29-19b/60837/",
+  "hostname": "localhost",
+  "password": true,
+  "pid": 854193,
+  "port": 60837,
+  "root_dir": "/home/mxg9xv",
+  "secure": false,
+  "sock": "",
+  "token": "",
+  "url": "http://localhost:60837/node/udc-aw29-19b/60837/",
+  "version": "2.7.1"
+}

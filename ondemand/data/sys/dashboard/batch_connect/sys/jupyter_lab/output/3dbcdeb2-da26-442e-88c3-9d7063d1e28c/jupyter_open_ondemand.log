@@ -1,0 +1,917 @@
+Script starting...
+Waiting for Jupyter Notebook server to open port 59786...
+TIMING - Starting wait at: Mon Mar 25 01:34:20 EDT 2024
+TIMING - Starting main script at: Mon Mar 25 01:34:20 EDT 2024
+Environment Setting
+
+Currently Loaded Modules:
+  1) jupyterlab/.3.6.3-py3.11 (H)
+
+  Where:
+   H:  Hidden Module
+
+ 
+
+TTT - Mon Mar 25 01:34:21 EDT 2024
+TIMING - Starting jupyter at: Mon Mar 25 01:34:21 EDT 2024
++ export XDG_RUNTIME_DIR=
++ XDG_RUNTIME_DIR=
++ jupyter lab --config=/home/mxg9xv/ondemand/data/sys/dashboard/batch_connect/sys/jupyter_lab/output/3dbcdeb2-da26-442e-88c3-9d7063d1e28c/config.py --notebook-dir=/home/mxg9xv
+[I 2024-03-25 01:34:22.525 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-03-25 01:34:22.543 ServerApp] Package jupyter_resource_usage took 0.0175s to import
+[I 2024-03-25 01:34:22.547 ServerApp] Package jupyter_server_fileid took 0.0034s to import
+[I 2024-03-25 01:34:22.613 ServerApp] Package jupyter_server_proxy took 0.0664s to import
+[I 2024-03-25 01:34:22.622 ServerApp] Package jupyter_server_terminals took 0.0088s to import
+[I 2024-03-25 01:34:22.682 ServerApp] Package jupyter_server_ydoc took 0.0591s to import
+[I 2024-03-25 01:34:22.682 ServerApp] Package nbclassic took 0.0000s to import
+[W 2024-03-25 01:34:22.684 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-03-25 01:34:22.685 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-03-25 01:34:22.685 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-03-25 01:34:22.860 ServerApp] Package voila.server_extension took 0.1745s to import
+[I 2024-03-25 01:34:22.860 ServerApp] jupyter_resource_usage | extension was successfully linked.
+[I 2024-03-25 01:34:22.864 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-03-25 01:34:22.864 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2024-03-25 01:34:22.867 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-03-25 01:34:22.871 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2024-03-25 01:34:22.872 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.872 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.872 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.872 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.872 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.872 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.873 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.873 LabApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.873 LabApp] 'disable_check_xsrf' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.873 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-25 01:34:22.875 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[W 2024-03-25 01:34:22.875 ServerApp] ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.
+[I 2024-03-25 01:34:22.875 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-03-25 01:34:22.878 ServerApp] nbclassic | extension was successfully linked.
+/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/traitlets/traitlets.py:1872: DeprecationWarning: ServerApp.token config is deprecated in jupyter-server 2.0. Use IdentityProvider.token
+  return self._get_trait_default_generator(names[0])(self)
+[I 2024-03-25 01:34:23.225 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-03-25 01:34:23.225 ServerApp] voila.server_extension | extension was successfully linked.
+[W 2024-03-25 01:34:23.316 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-03-25 01:34:23.317 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-03-25 01:34:23.317 ServerApp] jupyter_resource_usage | extension was successfully loaded.
+[I 2024-03-25 01:34:23.317 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-03-25 01:34:23.318 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /home/mxg9xv
+[I 2024-03-25 01:34:23.318 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/mxg9xv/.local/share/jupyter/file_id_manager.db
+[I 2024-03-25 01:34:23.320 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-03-25 01:34:23.321 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-03-25 01:34:23.335 FileIdExtension] Attached event listeners.
+[I 2024-03-25 01:34:23.336 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-03-25 01:34:23.348 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2024-03-25 01:34:23.349 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-03-25 01:34:23.349 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/traitlets/traitlets.py:1872: DeprecationWarning: ServerApp.token config is deprecated in jupyter-server 2.0. Use IdentityProvider.token
+  return self._get_trait_default_generator(names[0])(self)
+[I 2024-03-25 01:34:23.362 LabApp] JupyterLab extension loaded from /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab
+[I 2024-03-25 01:34:23.362 LabApp] JupyterLab application directory is /sfs/applications/202312/software/standard/core/jupyterlab/3.6.3-py3.11/share/jupyter/lab
+[I 2024-03-25 01:34:23.364 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-03-25 01:34:23.370 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-03-25 01:34:23.374 ServerApp] voila.server_extension | extension was successfully loaded.
+[I 2024-03-25 01:34:23.374 ServerApp] Serving notebooks from local directory: /home/mxg9xv
+[I 2024-03-25 01:34:23.374 ServerApp] Jupyter Server 2.7.1 is running at:
+[I 2024-03-25 01:34:23.374 ServerApp] http://localhost:59786/node/udc-aw34-2c0/59786/lab
+[I 2024-03-25 01:34:23.374 ServerApp]     http://127.0.0.1:59786/node/udc-aw34-2c0/59786/lab
+[I 2024-03-25 01:34:23.374 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-03-25 01:34:23.395 ServerApp] No web browser found: Error('could not locate runnable browser').
+Discovered Jupyter Notebook server listening on port 59786!
+TIMING - Wait ended at: Mon Mar 25 01:34:23 EDT 2024
+Generating connection YAML file...
+[I 2024-03-25 01:34:55.339 ServerApp] User aa420abc8787412a8338839be5f5571a logged in.
+[I 2024-03-25 01:34:55.339 ServerApp] 302 POST /node/udc-aw34-2c0/59786/login (aa420abc8787412a8338839be5f5571a@10.153.20.32) 1.36ms
+[I 2024-03-25 01:34:55.436 ServerApp] 302 GET /node/udc-aw34-2c0/59786/ (@10.153.20.32) 0.44ms
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-25 01:35:01.081 LabApp] Build is up to date
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[I 2024-03-25 01:35:03.824 ServerApp] Kernel started: 13aebf75-a8d8-44e2-a69c-993fcb2411a4
+[I 2024-03-25 01:35:03.825 ServerApp] Kernel started: 994f173e-738b-4c61-ae47-eb138cc68850
+[I 2024-03-25 01:35:03.934 ServerApp] Kernel started: 63b413d3-a365-46df-bdde-edff89898e3b
+[I 2024-03-25 01:35:04.106 ServerApp] Kernel started: 42f5f7d1-329b-4350-833b-9723dae0052c
+[I 2024-03-25 01:35:04.107 ServerApp] Kernel started: 38771bce-2921-45fc-bc91-3a2d63b7122e
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.01s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[I 2024-03-25 01:35:07.568 ServerApp] Connecting to kernel 63b413d3-a365-46df-bdde-edff89898e3b.
+/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/json/encoder.py:258: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 2024-03-25 01:35:07.692 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f979056c090>
+[I 2024-03-25 01:35:07.744 ServerApp] Starting buffering for 63b413d3-a365-46df-bdde-edff89898e3b:90d97d54-041e-49f4-9ecf-df34991f215b
+[I 2024-03-25 01:35:07.877 ServerApp] Connecting to kernel 13aebf75-a8d8-44e2-a69c-993fcb2411a4.
+[I 2024-03-25 01:35:08.170 ServerApp] Connecting to kernel 994f173e-738b-4c61-ae47-eb138cc68850.
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[I 2024-03-25 01:35:08.459 ServerApp] Connecting to kernel 63b413d3-a365-46df-bdde-edff89898e3b.
+[I 2024-03-25 01:35:08.755 ServerApp] Connecting to kernel 38771bce-2921-45fc-bc91-3a2d63b7122e.
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[I 2024-03-25 01:35:09.058 ServerApp] Connecting to kernel 42f5f7d1-329b-4350-833b-9723dae0052c.
+[I 2024-03-25 01:35:09.348 ServerApp] Connecting to kernel 38771bce-2921-45fc-bc91-3a2d63b7122e.
+[I 2024-03-25 01:35:09.622 ServerApp] Connecting to kernel 38771bce-2921-45fc-bc91-3a2d63b7122e.
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[W 2024-03-25 01:35:20.479 ServerApp] 500 GET /node/udc-aw34-2c0/59786/nvdashboard/index.json?1711344900341 (10.153.20.32): could not start nvdashboard in time
+[E 2024-03-25 01:35:20.495 ServerApp] {
+      "Host": "udc-aw34-2c0:59786",
+      "Accept": "*/*",
+      "Referer": "https://rivanna-portal.hpc.virginia.edu/node/udc-aw34-2c0/59786/lab?",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0"
+    }
+[E 2024-03-25 01:35:20.495 ServerApp] 500 GET /node/udc-aw34-2c0/59786/nvdashboard/index.json?1711344900341 (aa420abc8787412a8338839be5f5571a@10.153.20.32) 20048.18ms referer=https://rivanna-portal.hpc.virginia.edu/node/udc-aw34-2c0/59786/lab?
+[I 2024-03-25 01:35:38.794 ServerApp] Starting buffering for 13aebf75-a8d8-44e2-a69c-993fcb2411a4:eec71863-8a29-4238-9e1d-34f64cf988ee
+[I 2024-03-25 01:35:38.795 ServerApp] Starting buffering for 63b413d3-a365-46df-bdde-edff89898e3b:d7b4ed08-9237-4d56-9246-8b3bb51ab0c5
+[I 2024-03-25 01:35:38.795 ServerApp] Starting buffering for 42f5f7d1-329b-4350-833b-9723dae0052c:a813580f-7485-441d-8cb1-eec38185ad4f
+[I 2024-03-25 01:35:38.795 ServerApp] Starting buffering for 38771bce-2921-45fc-bc91-3a2d63b7122e:e909d534-1fdc-4ec9-8ea5-6a7823bcfb61
+[I 2024-03-25 01:35:38.796 ServerApp] Starting buffering for 994f173e-738b-4c61-ae47-eb138cc68850:21bc377c-2447-49ff-9746-72008e968187
+[I 2024-03-25 01:35:42.367 LabApp] Build is up to date
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[I 2024-03-25 01:35:44.169 ServerApp] Connecting to kernel 13aebf75-a8d8-44e2-a69c-993fcb2411a4.
+[W 2024-03-25 01:35:44.195 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9790159310>
+[I 2024-03-25 01:35:44.463 ServerApp] Connecting to kernel 994f173e-738b-4c61-ae47-eb138cc68850.
+[I 2024-03-25 01:35:44.763 ServerApp] Connecting to kernel 63b413d3-a365-46df-bdde-edff89898e3b.
+[I 2024-03-25 01:35:45.060 ServerApp] Connecting to kernel 42f5f7d1-329b-4350-833b-9723dae0052c.
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[I 2024-03-25 01:35:45.370 ServerApp] Connecting to kernel 38771bce-2921-45fc-bc91-3a2d63b7122e.
+[I 2024-03-25 01:35:45.370 ServerApp] Discarding 2 buffered messages for 38771bce-2921-45fc-bc91-3a2d63b7122e:e909d534-1fdc-4ec9-8ea5-6a7823bcfb61
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[W 2024-03-25 01:35:57.073 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9793464b90>
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[I 2024-03-25 01:35:59.007 ServerApp] Starting buffering for 42f5f7d1-329b-4350-833b-9723dae0052c:fca8466f-6def-4698-8eeb-5ab54cd96789
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[W 2024-03-25 01:36:00.344 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f97905fc510>
+Traceback (most recent call last):
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/server.py", line 7, in <module>
+    from jupyterlab_nvdashboard import apps
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/__init__.py", line 2, in <module>
+    from . import gpu
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyterlab_nvdashboard/apps/gpu.py", line 19, in <module>
+    pynvml.nvmlInit()
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1770, in nvmlInit
+    nvmlInitWithFlags(0)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 1760, in nvmlInitWithFlags
+    _nvmlCheckReturn(ret)
+  File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/pynvml/nvml.py", line 833, in _nvmlCheckReturn
+    raise NVMLError(ret)
+pynvml.nvml.NVMLError_DriverNotLoaded: Driver Not Loaded
+[W 2024-03-25 01:36:01.316 ServerApp] 500 GET /node/udc-aw34-2c0/59786/nvdashboard/index.json?1711344941204 (10.153.20.32): could not start nvdashboard in time
+[E 2024-03-25 01:36:01.317 ServerApp] {
+      "Host": "udc-aw34-2c0:59786",
+      "Accept": "*/*",
+      "Referer": "https://rivanna-portal.hpc.virginia.edu/node/udc-aw34-2c0/59786/lab/tree/Documents/DS5100-mxg9xv/lessons/M08",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0"
+    }
+[E 2024-03-25 01:36:01.318 ServerApp] 500 GET /node/udc-aw34-2c0/59786/nvdashboard/index.json?1711344941204 (aa420abc8787412a8338839be5f5571a@10.153.20.32) 20016.49ms referer=https://rivanna-portal.hpc.virginia.edu/node/udc-aw34-2c0/59786/lab/tree/Documents/DS5100-mxg9xv/lessons/M08
+[I 2024-03-25 02:30:31.261 ServerApp] Creating new notebook in /Documents/DS5100-mxg9xv/lessons/M08
+[W 2024-03-25 02:30:31.567 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9790623a10>
+[E 2024-03-25 02:30:31.944 ServerApp] Failed to run command:
+    ['/usr/share/jupyter/kernels/python-3.8/python3.sh', '-f', '/sfs/qumulo/qhome/mxg9xv/.local/share/jupyter/runtime/kernel-f2baeaed-a4da-47d2-8d9f-ee98c3af15f8.json']
+        PATH='/apps/software/standard/core/jupyterlab/3.6.3-py3.11:/apps/software/standard/core/jupyterlab/3.6.3-py3.11/sbin:/apps/software/standard/core/jupyterlab/3.6.3-py3.11/bin:/opt/mam/9.1.2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/current/bin:/opt/singularity/current/bin:/opt/rci/bin:/share/rci_apps/common/bin:/share/resources/HPCtools:/opt/mam/current/bin:/opt/apptainer/current/bin'
+        with kwargs:
+    {'stdin': -1, 'stdout': None, 'stderr': None, 'cwd': '/home/mxg9xv/Documents/DS5100-mxg9xv/lessons/M08', 'start_new_session': True}
+    
+[E 2024-03-25 02:30:31.944 ServerApp] [Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh'
+    Traceback (most recent call last):
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 85, in wrapper
+        out = await method(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 401, in _async_start_kernel
+        await self._async_launch_kernel(kernel_cmd, **kw)
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 317, in _async_launch_kernel
+        connection_info = await self.provisioner.launch_kernel(kernel_cmd, **kw)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/provisioning/local_provisioner.py", line 208, in launch_kernel
+        self.process = launch_kernel(cmd, **scrubbed_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/launcher.py", line 170, in launch_kernel
+        raise ex
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/launcher.py", line 155, in launch_kernel
+        proc = Popen(cmd, **kwargs)  # noqa
+               ^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/subprocess.py", line 1026, in __init__
+        self._execute_child(args, executable, preexec_fn, close_fds,
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/subprocess.py", line 1950, in _execute_child
+        raise child_exception_type(errno_num, err_msg, err_filename)
+    FileNotFoundError: [Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh'
+[E 2024-03-25 02:30:32.033 ServerApp] [Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh'
+    Traceback (most recent call last):
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/multikernelmanager.py", line 166, in _add_kernel_when_ready
+        await kernel_awaitable
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 776, in wrapped_method
+        raise err
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 740, in wrapped_method
+        out = await method(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 845, in start_kernel
+        return await super().start_kernel(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 93, in wrapper
+        raise e
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 85, in wrapper
+        out = await method(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 401, in _async_start_kernel
+        await self._async_launch_kernel(kernel_cmd, **kw)
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 317, in _async_launch_kernel
+        connection_info = await self.provisioner.launch_kernel(kernel_cmd, **kw)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/provisioning/local_provisioner.py", line 208, in launch_kernel
+        self.process = launch_kernel(cmd, **scrubbed_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/launcher.py", line 170, in launch_kernel
+        raise ex
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/launcher.py", line 155, in launch_kernel
+        proc = Popen(cmd, **kwargs)  # noqa
+               ^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/subprocess.py", line 1026, in __init__
+        self._execute_child(args, executable, preexec_fn, close_fds,
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/subprocess.py", line 1950, in _execute_child
+        raise child_exception_type(errno_num, err_msg, err_filename)
+    FileNotFoundError: [Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh'
+[W 2024-03-25 02:30:32.095 ServerApp] 500 POST /node/udc-aw34-2c0/59786/api/sessions?1711348231814 (10.153.20.32): [Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh'
+[W 2024-03-25 02:30:32.095 ServerApp] wrote error: "[Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh'"
+    Traceback (most recent call last):
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/sessions/handlers.py", line 89, in post
+        model = await sm.create_session(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/sessions/sessionmanager.py", line 287, in create_session
+        kernel_id = await self.start_kernel_for_session(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/sessions/sessionmanager.py", line 345, in start_kernel_for_session
+        kernel_id = await self.kernel_manager.start_kernel(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 233, in _async_start_kernel
+        kernel_id = await self.pinned_superclass._async_start_kernel(self, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/multikernelmanager.py", line 219, in _async_start_kernel
+        raise km.ready.exception()  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/multikernelmanager.py", line 166, in _add_kernel_when_ready
+        await kernel_awaitable
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 776, in wrapped_method
+        raise err
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 740, in wrapped_method
+        out = await method(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 845, in start_kernel
+        return await super().start_kernel(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 93, in wrapper
+        raise e
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 85, in wrapper
+        out = await method(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 401, in _async_start_kernel
+        await self._async_launch_kernel(kernel_cmd, **kw)
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/manager.py", line 317, in _async_launch_kernel
+        connection_info = await self.provisioner.launch_kernel(kernel_cmd, **kw)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/provisioning/local_provisioner.py", line 208, in launch_kernel
+        self.process = launch_kernel(cmd, **scrubbed_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/launcher.py", line 170, in launch_kernel
+        raise ex
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_client/launcher.py", line 155, in launch_kernel
+        proc = Popen(cmd, **kwargs)  # noqa
+               ^^^^^^^^^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/subprocess.py", line 1026, in __init__
+        self._execute_child(args, executable, preexec_fn, close_fds,
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/subprocess.py", line 1950, in _execute_child
+        raise child_exception_type(errno_num, err_msg, err_filename)
+    FileNotFoundError: [Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh'
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages/jupyter_server/services/sessions/handlers.py", line 107, in post
+        raise web.HTTPError(500, str(e)) from e
+    tornado.web.HTTPError: HTTP 500: Internal Server Error ([Errno 2] No such file or directory: '/usr/share/jupyter/kernels/python-3.8/python3.sh')
+[E 2024-03-25 02:30:32.130 ServerApp] {
+      "Host": "udc-aw34-2c0:59786",
+      "Accept": "*/*",
+      "Referer": "https://rivanna-portal.hpc.virginia.edu/node/udc-aw34-2c0/59786/lab/tree/Documents/DS5100-mxg9xv/lessons/M08/Untitled.ipynb",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0"
+    }
+[E 2024-03-25 02:30:32.130 ServerApp] 500 POST /node/udc-aw34-2c0/59786/api/sessions?1711348231814 (aa420abc8787412a8338839be5f5571a@10.153.20.32) 201.44ms referer=https://rivanna-portal.hpc.virginia.edu/node/udc-aw34-2c0/59786/lab/tree/Documents/DS5100-mxg9xv/lessons/M08/Untitled.ipynb
+[W 2024-03-25 02:30:53.001 ServerApp] delete /Documents/DS5100-mxg9xv/lessons/M08/Untitled.ipynb
+[W 2024-03-25 02:30:53.158 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f977b308550>
+[I 2024-03-25 02:30:59.039 ServerApp] Creating new notebook in /Documents/DS5100-mxg9xv/lessons/M08
+[W 2024-03-25 02:30:59.364 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9790076450>
+[I 2024-03-25 02:30:59.672 ServerApp] Kernel started: 92c3a7a7-3fd4-44d1-99db-c3036a256fd9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-25 02:31:00.725 ServerApp] Connecting to kernel 92c3a7a7-3fd4-44d1-99db-c3036a256fd9.
+[W 2024-03-25 02:31:00.790 ServerApp] Could not destroy zmq context for <jupyter_client.asynchronous.client.AsyncKernelClient object at 0x7f9790090b10>
+[I 2024-03-25 02:31:00.933 ServerApp] Starting buffering for 92c3a7a7-3fd4-44d1-99db-c3036a256fd9:f44d6e5a-3cd6-4903-8b87-61d567ca9026
+[I 2024-03-25 02:31:01.027 ServerApp] Connecting to kernel 92c3a7a7-3fd4-44d1-99db-c3036a256fd9.
+[I 2024-03-25 02:31:01.329 ServerApp] Connecting to kernel 92c3a7a7-3fd4-44d1-99db-c3036a256fd9.
+[I 2024-03-25 02:32:59.580 ServerApp] Saving file at /Documents/DS5100-mxg9xv/lessons/M08/sdsd.py
+slurmstepd: error: *** JOB 59722773 ON udc-aw34-2c0 CANCELLED AT 2024-03-25T02:34:43 DUE TO TIME LIMIT ***

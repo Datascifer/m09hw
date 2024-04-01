@@ -1,0 +1,19 @@
+{
+  "job_name": "sys/dashboard/sys/jupyter_lab",
+  "workdir": "/home/mxg9xv/ondemand/data/sys/dashboard/batch_connect/sys/jupyter_lab/output/3dbcdeb2-da26-442e-88c3-9d7063d1e28c",
+  "output_path": "/home/mxg9xv/ondemand/data/sys/dashboard/batch_connect/sys/jupyter_lab/output/3dbcdeb2-da26-442e-88c3-9d7063d1e28c/output.log",
+  "shell_path": "/bin/bash",
+  "wall_time": 3600,
+  "accounting_id": "msds_ds5100",
+  "email_on_started": false,
+  "queue_name": "standard",
+  "native": [
+    "-J",
+    "ood_jupyter",
+    "-N",
+    "1",
+    "--cpus-per-task",
+    "1",
+    "--output=jupyter_open_ondemand.log"
+  ]
+}

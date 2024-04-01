@@ -1,0 +1,22 @@
+2024-01-30 19:41:23.863 [info] 
+
+
+
+
+2024-01-30 19:41:23.863 [info] Extension host agent started.
+2024-01-30 19:41:23.873 [debug] No uninstalled extensions found.
+2024-01-30 19:41:23.877 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mxg9xv/.local/share/code-server/extensions
+2024-01-30 19:41:23.883 [debug] ComputeTargetPlatform: linux-x64
+2024-01-30 19:41:23.890 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mxg9xv/.local/share/code-server/extensions
+2024-01-30 19:41:26.504 [info] [10.153.20.32][fd0cc870][ManagementConnection] New connection established.
+2024-01-30 19:41:27.101 [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Could not connect: No such file or directory
+2024-01-30 19:41:27.358 [debug] Error while reading the extension cache file: /home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache Unable to read file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache' (Error: Unable to resolve nonexistent file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache')
+2024-01-30 19:41:27.358 [debug] Error while reading the extension cache file: /home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/mxg9xv/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2024-01-30 19:41:28.092 [info] [10.153.20.32][bab591e7][ExtensionHostConnection] New connection established.
+2024-01-30 19:41:28.688 [info] [10.153.20.32][bab591e7][ExtensionHostConnection] <435986> Launched Extension Host Process.
+2024-01-30 19:41:28.858 [debug] Terminal profile not validated pwsh ["pwsh"]
+2024-01-30 19:41:28.859 [debug] Terminal profile not validated tmux ["tmux"]
+2024-01-30 19:41:28.860 [debug] Terminal profile not validated fish ["fish"]
+2024-01-30 19:41:34.752 [debug] Terminal profile not validated fish ["fish"]
+2024-01-30 19:41:34.752 [debug] Terminal profile not validated tmux ["tmux"]
+2024-01-30 19:41:34.752 [debug] Terminal profile not validated pwsh ["pwsh"]

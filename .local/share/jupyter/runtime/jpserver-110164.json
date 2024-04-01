@@ -1,0 +1,13 @@
+{
+  "base_url": "/node/udc-ba26-34c1/38067/",
+  "hostname": "localhost",
+  "password": true,
+  "pid": 110164,
+  "port": 38067,
+  "root_dir": "/home/mxg9xv",
+  "secure": false,
+  "sock": "",
+  "token": "",
+  "url": "http://localhost:38067/node/udc-ba26-34c1/38067/",
+  "version": "2.7.1"
+}
