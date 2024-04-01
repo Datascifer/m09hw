@@ -35,7 +35,7 @@ class MagazineLoverTestSuite(unittest.TestCase):
         bl.add_magazine('Moby Dick', 3) 
         bl.add_magazine('War and Peace', 5)
         fav_magazines = bl.fav_magazines()
-        self.assertTrue(all(book['magazine_rating'] > 3 for index, magazine in fav_magazine.iterrows()))  # Checks if all favorite magazines have a rating above 3
+        self.assertTrue(all(magazine['magazine_rating'] > 3 for index, magazine in fav_magazines.iterrows()))  # Checks if all favorite magazines have a rating above 3
         self.assertIn('War and Peace', fav_magazines['magazine_name'].values)
         self.assertNotIn('Moby Dick', fav_magazines['magazine_name'].values)
 
